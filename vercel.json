@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "chap_8f/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "chap_8f/index.html"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
